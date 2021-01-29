@@ -1,2 +1,2 @@
 # psmc
-Psychiatry Clerkship Resources
+Psychiatry Clerkship Resources for Medical Students from Bhaikaka University Karamsad
