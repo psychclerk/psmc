@@ -59,135 +59,114 @@ a.rvts10, span.rvts10
 }
 span.rvts11
 {
- font-family: 'Helvetica Neue';
+ font-size: 9pt;
 }
 span.rvts12
 {
- font-size: 9pt;
- font-family: 'Helvetica Neue';
+ font-size: 11pt;
+ font-weight: bold;
+ color: #ffffff;
 }
 span.rvts13
 {
  font-size: 16pt;
- font-family: 'Helvetica Neue';
  font-weight: bold;
  color: #ffffff;
 }
-span.rvts14
-{
- font-size: 11pt;
- font-family: 'Helvetica Neue';
- font-weight: bold;
- color: #ffffff;
-}
-span.rvts15 /* Font Style */
+span.rvts14 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #c0c0c0;
 }
-a.rvts16, span.rvts16 /* Font Style */
+a.rvts15, span.rvts15 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #6666ff;
  text-decoration: underline;
 }
-span.rvts17
+span.rvts16
 {
- font-family: 'Helvetica Neue';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts18
+span.rvts17
 {
- font-family: 'Helvetica Neue';
  font-style: italic;
  font-weight: bold;
+ color: #ffffff;
+}
+span.rvts18
+{
+ font-size: 11pt;
  color: #ffffff;
 }
 span.rvts19
 {
  font-size: 11pt;
- font-family: 'Helvetica Neue';
- color: #ffffff;
-}
-a.rvts20, span.rvts20
-{
- font-size: 9pt;
- font-family: 'Helvetica Neue';
- color: #0000ff;
- text-decoration: underline;
-}
-span.rvts21
-{
- font-size: 11pt;
- font-family: 'Helvetica Neue';
  font-weight: bold;
  color: #ffffff;
+}
+span.rvts20
+{
+ font-size: 9pt;
+ color: #ffffff;
+}
+a.rvts21, span.rvts21
+{
+ font-size: 9pt;
+ color: #0000ff;
+ text-decoration: underline;
 }
 span.rvts22
 {
  font-size: 8pt;
- font-family: 'Helvetica Neue';
  color: #ffffff;
 }
 span.rvts23
 {
- font-size: 9pt;
- font-family: 'Helvetica Neue';
- color: #ffffff;
+ font-size: 11pt;
 }
 span.rvts24
 {
  font-size: 9.5pt;
- font-family: 'Helvetica Neue';
 }
 span.rvts25
 {
  font-size: 9pt;
- font-family: 'Helvetica Neue';
  text-decoration: underline;
 }
 span.rvts26
 {
- font-size: 11pt;
- font-family: 'Helvetica Neue';
+ font-size: 9pt;
+ font-weight: bold;
 }
 span.rvts27
 {
  font-size: 9pt;
- font-family: 'Helvetica Neue';
- font-weight: bold;
+ font-style: italic;
 }
 span.rvts28
 {
- font-size: 11pt;
- font-family: 'Helvetica Neue';
  font-weight: bold;
 }
 span.rvts29
 {
- font-size: 9pt;
- font-family: 'Helvetica Neue';
- font-style: italic;
+ font-size: 11pt;
+ font-weight: bold;
 }
 span.rvts30
 {
- font-family: 'Helvetica Neue';
- font-weight: bold;
-}
-span.rvts31
-{
  font-size: 16pt;
- font-family: 'Helvetica Neue';
  font-weight: bold;
  color: #ffffff;
 }
-span.rvts32
+a.rvts31, span.rvts31
 {
- font-size: 9pt;
- font-family: 'MyriadPro-Regular';
+ font-size: 9.5pt;
+ color: #0000ff;
+ text-decoration: underline;
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
