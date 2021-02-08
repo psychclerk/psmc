@@ -59,64 +59,135 @@ a.rvts10, span.rvts10
 }
 span.rvts11
 {
- font-size: 9pt;
+ font-family: 'Helvetica Neue';
 }
 span.rvts12
 {
- font-size: 11pt;
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
 }
 span.rvts13
 {
  font-size: 16pt;
+ font-family: 'Helvetica Neue';
  font-weight: bold;
+ color: #ffffff;
 }
-span.rvts14 /* Font Style */
+span.rvts14
+{
+ font-size: 11pt;
+ font-family: 'Helvetica Neue';
+ font-weight: bold;
+ color: #ffffff;
+}
+span.rvts15 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #c0c0c0;
 }
-a.rvts15, span.rvts15 /* Font Style */
+a.rvts16, span.rvts16 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #6666ff;
  text-decoration: underline;
 }
-span.rvts16
+span.rvts17
 {
+ font-family: 'Helvetica Neue';
  font-style: italic;
  font-weight: bold;
-}
-a.rvts17, span.rvts17
-{
- font-size: 9pt;
- color: #0000ff;
- text-decoration: underline;
 }
 span.rvts18
 {
- font-size: 11pt;
+ font-family: 'Helvetica Neue';
+ font-style: italic;
  font-weight: bold;
+ color: #ffffff;
 }
 span.rvts19
 {
- font-size: 9pt;
- font-style: italic;
+ font-size: 11pt;
+ font-family: 'Helvetica Neue';
+ color: #ffffff;
 }
-span.rvts20
+a.rvts20, span.rvts20
 {
- font-size: 16pt;
- font-weight: bold;
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
+ color: #0000ff;
+ text-decoration: underline;
 }
 span.rvts21
 {
  font-size: 11pt;
+ font-family: 'Helvetica Neue';
  font-weight: bold;
+ color: #ffffff;
 }
 span.rvts22
 {
+ font-size: 8pt;
+ font-family: 'Helvetica Neue';
+ color: #ffffff;
+}
+span.rvts23
+{
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
+ color: #ffffff;
+}
+span.rvts24
+{
+ font-size: 9.5pt;
+ font-family: 'Helvetica Neue';
+}
+span.rvts25
+{
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
+ text-decoration: underline;
+}
+span.rvts26
+{
+ font-size: 11pt;
+ font-family: 'Helvetica Neue';
+}
+span.rvts27
+{
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
  font-weight: bold;
+}
+span.rvts28
+{
+ font-size: 11pt;
+ font-family: 'Helvetica Neue';
+ font-weight: bold;
+}
+span.rvts29
+{
+ font-size: 9pt;
+ font-family: 'Helvetica Neue';
+ font-style: italic;
+}
+span.rvts30
+{
+ font-family: 'Helvetica Neue';
+ font-weight: bold;
+}
+span.rvts31
+{
+ font-size: 16pt;
+ font-family: 'Helvetica Neue';
+ font-weight: bold;
+ color: #ffffff;
+}
+span.rvts32
+{
+ font-size: 9pt;
+ font-family: 'MyriadPro-Regular';
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
@@ -142,10 +213,16 @@ p,ul,ol /* Paragraph Style */
  text-align: center;
  text-indent: 0px;
  page-break-after: avoid;
+ background: #00b050;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
-.rvps5 /* Paragraph Style */
+.rvps5
+{
+ text-align: center;
+ background: #7030a0;
+}
+.rvps6 /* Paragraph Style */
 {
  text-align: center;
  border-color: #c0c0c0;
@@ -156,7 +233,24 @@ p,ul,ol /* Paragraph Style */
  padding: 2px 0px 2px 0px;
  margin: 7px 0px 7px 0px;
 }
-.rvps6
+.rvps7
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ background: #00b050;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps8
+{
+ background: #7030a0;
+}
+.rvps9
+{
+ background: #0070c0;
+}
+.rvps10
 {
  text-align: left;
  text-indent: 0px;
@@ -164,9 +258,49 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
-.rvps7
+.rvps11
 {
  margin: 0px 0px 0px 24px;
+}
+.rvps12
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ background: #7030a0;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps13
+{
+ background: #00b050;
+}
+.rvps14
+{
+ text-align: center;
+ border-color: #000000;
+ border-style: solid;
+ border-width: 1px;
+}
+.rvps15
+{
+ text-align: center;
+ text-indent: 0px;
+ page-break-after: avoid;
+ border-color: #000000;
+ border-style: solid;
+ border-width: 1px;
+ padding: 0px 0px 0px 0px;
+ margin: 15px 0px 3px 0px;
+}
+.rvps16
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ background: #c00000;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
 }
 /* ========== Lists ========== */
 .list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
