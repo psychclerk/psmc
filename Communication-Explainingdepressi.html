@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Personal Edition 6.9.0.577">
+  <meta name="generator" content="HelpNDoc Personal Edition 6.1.0.206">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -31,10 +31,10 @@
   <meta property="og:site_name" content="Psychiatry Clerkship" /> 
 
   <!-- Bootstrap core CSS -->
-  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="vendors/bootstrap-3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+  <link href="vendors/bootstrap-3.4.0/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -229,7 +229,7 @@
 <li class="rvps2"><span class="rvts11">'Current understanding is that depression is a brain based disorder in which changes in the levels of serotonin occur in the areas of the brain that control mood and thinking."</span></li>
 <li class="rvps2"><span class="rvts11">'In certain cases the depression may be brought on by systemic problems such as heart problem, stroke or thyroid disorder.'</span></li>
 </ul>
-<li class="rvps2"><span class="rvts11">if asked about it is diagnosed </span></li>
+<li class="rvps2"><span class="rvts11">if asked about how it is diagnosed </span></li>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
 <li style="margin-left: 0px" class="rvps16"><span class="rvts11">'There is no test to diagnose depression. It is diagnosed based on the history and evaluation of the mental state. However, doctors may advised test to rule out systemic problems as the cause of depression.'</span></li>
 </ul>
@@ -249,7 +249,7 @@
 <li class="rvps2"><span class="rvts11">'Does this make sense to you?' </span></li>
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps8"><span class="rvts43">Summary </span></p>
+<p class="rvps8"><span class="rvts49">Summary</span><span class="rvts43">&nbsp;</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
 <li class="rvps2"><span class="rvts11">Thank patient </span></li>
 <li class="rvps2"><span class="rvts11">Questions? Concerns?</span></li>
@@ -267,14 +267,17 @@
 <li class="rvps2"><span class="rvts11">Appropriate body language</span></li>
 <li class="rvps2"><span class="rvts11">Overall competence </span></li>
 </ul>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<h1 class="rvps14"><span class="rvts0"><span class="rvts19">Self directed learning material &nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps2"><span class="rvts11">1. TedEd video on symptoms, causes and treatment of depression</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps2"><span class="rvts11"><iframe width="320" height="200" src="https://www.youtube.com/embed/z-IR48Mb3W0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps8"><span class="rvts49">Bibliography</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts11">1. simplypsychiatry.co.uk</span></p>
-<p class="rvps2"><span class="rvts11"><br/></span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts11">2. TedEd</span></p>
 <p></p>
 <p class="rvps6" style="clear: both;"><span class="rvts14">Created with the Personal Edition of HelpNDoc: </span><a class="rvts15" href="https://www.helpndoc.com/feature-tour">Easily create Web Help sites</a></p>
 
@@ -308,13 +311,14 @@
   </div>
 
   <!-- Scripts -->
-  <script src="vendors/jquery-3.4.1/jquery.min.js"></script>
-  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/jquery-3.3.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.0/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
   <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
   <script src="vendors/uri-1.19.1/uri.min.js"></script>
   <script src="vendors/imageMapResizer-1.0.7/imageMapResizer.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/bootstrap-3.4.0/js/ie10-viewport-bug-workaround.js"></script>
   
   <!-- Headroom -->
   <script src="vendors/headroom-0.9.4/headroom.min.js"></script>
@@ -332,6 +336,8 @@
   <!-- Scripts -->
   <script>
     $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
       // Create the app
       var app = new Hnd.App();
       // Update translations
