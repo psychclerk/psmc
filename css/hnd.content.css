@@ -559,58 +559,63 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps21
 {
- text-indent: 48px;
+ text-align: center;
+ background: #66c9ff;
 }
 .rvps22
 {
- margin: 7px 0px 7px 12px;
+ text-indent: 48px;
 }
 .rvps23
 {
- text-align: center;
  margin: 7px 0px 7px 12px;
 }
 .rvps24
 {
- margin: 7px 0px 7px 7px;
+ text-align: center;
+ margin: 7px 0px 7px 12px;
 }
 .rvps25
 {
- text-align: center;
  margin: 7px 0px 7px 7px;
 }
 .rvps26
 {
- background: #00b050;
+ text-align: center;
+ margin: 7px 0px 7px 7px;
 }
 .rvps27
+{
+ background: #00b050;
+}
+.rvps28
 {
  border-color: #ff0000;
  border-style: solid;
  border-width: 1px;
  background: #bfbfbf;
 }
-.rvps28
+.rvps29
 {
  margin: 0px 0px 0px 24px;
 }
-.rvps29
-{
-}
 .rvps30
 {
- text-align: center;
 }
 .rvps31
 {
- margin: 0px 0px 0px 23px;
+ text-align: center;
 }
 .rvps32
+{
+ margin: 0px 0px 0px 23px;
+}
+.rvps33
 {
  text-align: center;
  margin: 1px 1px 1px 1px;
 }
-.rvps33
+.rvps34
 {
  border-color: #000000;
  border-style: solid;
