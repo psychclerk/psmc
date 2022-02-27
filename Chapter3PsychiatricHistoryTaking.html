@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Personal Edition 7.3.0.348">
+  <meta name="generator" content="HelpNDoc Personal Edition 7.8.0.569">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -670,7 +671,7 @@
 <p class="rvps15"><span class="rvts11">4. </span><a class="rvts22" href="https://www.youtube.com/watch?v=gYwGmWWxY48" target="_blank">This</a><span class="rvts11"> video demonstrates 3 patients with catatonia. &nbsp;</span></p>
 <p class="rvps15"><span class="rvts11">5. </span><a class="rvts22" href="https://archive.org/details/Symptoms1940" target="_blank">This</a><span class="rvts11"> 1940's educational video on symptoms of schizophrenia, shows many patients with catatonia.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts11"><br/></span></p>
-<p class="rvps3"><img width="596" height="391" alt="" style="padding : 1px;" src="lib/pharmacology-antipsychotic-management-drugs-sideeffects-original.png"></p>
+<p class="rvps3"></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
   <li class="rvps2"><span class="rvts11">Motor side effects of antipsychotics</span></li>
@@ -1666,7 +1667,9 @@
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer
