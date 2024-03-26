@@ -1,12 +1,12 @@
 /* ========== Text Styles ========== */
-hr { color: #000000}
+hr { color: canvastext}
 .main-content, .main-content table span.rvts0 /* Normal text */
 {
  font-size: 10pt;
  font-family: 'Arial', 'Helvetica', sans-serif;
  font-style: normal;
  font-weight: normal;
- color: #000000;
+ color: canvastext;
  text-decoration: none;
 }
 span.rvts1 /* Heading */
@@ -65,17 +65,17 @@ span.rvts12
 {
  font-size: 11pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts13
 {
  font-size: 16pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts14
 {
- color: #ffffff;
+ color: canvas;
 }
 span.rvts15 /* Font Style */
 {
@@ -99,24 +99,24 @@ span.rvts18
 {
  font-style: italic;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts19
 {
  font-size: 11pt;
- color: #ffffff;
+ color: canvas;
 }
 a.rvts20, span.rvts20
 {
  font-size: 11pt;
- color: #ffffff;
+ color: canvas;
  text-decoration: underline;
 }
 span.rvts21
 {
  font-size: 11pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 a.rvts22, span.rvts22
 {
@@ -127,7 +127,7 @@ a.rvts22, span.rvts22
 span.rvts23
 {
  font-size: 8pt;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts24
 {
@@ -232,7 +232,7 @@ span.rvts45
 {
  font-size: 16pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts46
 {
@@ -249,18 +249,18 @@ span.rvts47
 span.rvts48
 {
  font-size: 9pt;
- color: #ffffff;
+ color: canvas;
  background-color: #7030a0;
 }
 span.rvts49
 {
  font-size: 9pt;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts50
 {
  font-size: 9pt;
- color: ;
+ color: transparent;
 }
 span.rvts51
 {
@@ -281,46 +281,46 @@ span.rvts53
 }
 span.rvts54
 {
- color: ;
+ color: transparent;
 }
 span.rvts55
 {
  font-weight: bold;
- color: ;
+ color: transparent;
 }
 span.rvts56
 {
  font-size: 13pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts57
 {
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts58
 {
  font-size: 9pt;
  font-weight: bold;
- color: ;
+ color: transparent;
 }
 span.rvts59
 {
  font-size: 9pt;
  font-style: italic;
- color: ;
+ color: transparent;
 }
 span.rvts60
 {
  font-size: 9pt;
  font-weight: bold;
- color: #000000;
+ color: buttontext;
 }
 span.rvts61
 {
  font-size: 9pt;
- color: #000000;
+ color: buttontext;
 }
 a.rvts62, span.rvts62
 {
@@ -357,7 +357,7 @@ span.rvts68
 {
  font-size: 9pt;
  font-weight: bold;
- color: #ffffff;
+ color: canvas;
 }
 span.rvts69
 {
@@ -389,7 +389,7 @@ span.rvts73
 a.rvts74, span.rvts74
 {
  font-size: 9pt;
- color: ;
+ color: transparent;
  text-decoration: underline;
 }
 span.rvts75
@@ -426,84 +426,89 @@ span.rvts80
 span.rvts81
 {
  font-size: 8pt;
- color: ;
+ color: transparent;
 }
 span.rvts82
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
- color: #000000;
+ font-size: 9pt;
 }
 span.rvts83
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
- font-weight: bold;
- color: #000000;
+ font-size: 9pt;
+ font-style: italic;
+ color: buttontext;
 }
 span.rvts84
 {
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 16pt;
+ font-weight: bold;
 }
 span.rvts85
 {
- font-size: 16pt;
+ font-size: 12pt;
  font-family: 'Times New Roman', 'Times', serif;
- font-weight: bold;
 }
 span.rvts86
 {
  font-size: 12pt;
  font-family: 'Times New Roman', 'Times', serif;
- color: ;
+ font-weight: bold;
 }
 span.rvts87
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
- font-style: italic;
- color: ;
+ font-size: 9pt;
+ font-weight: bold;
 }
 span.rvts88
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 9pt;
+ font-family: 'Segoe UI';
  font-weight: bold;
- color: ;
 }
 span.rvts89
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 14pt;
 }
 span.rvts90
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
  font-style: italic;
- color: #000000;
 }
 span.rvts91
 {
- font-size: 16pt;
- font-weight: bold;
+ font-style: italic;
+ text-decoration: underline;
 }
 span.rvts92
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
- font-weight: bold;
+ font-size: 6pt;
+ font-style: italic;
 }
 span.rvts93
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 7pt;
+ font-weight: bold;
 }
 span.rvts94
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 8pt;
+ font-style: italic;
+}
+span.rvts95
+{
+ font-size: 8pt;
  font-weight: bold;
+}
+span.rvts96
+{
+ font-weight: bold;
+}
+span.rvts97
+{
+ font-size: 13pt;
+ font-weight: bold;
+}
+span.rvts98
+{
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
@@ -528,7 +533,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: center;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  background: #00b050;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
@@ -553,7 +558,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: left;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  background: #00b050;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
@@ -570,7 +575,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: left;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
@@ -578,7 +583,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: left;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  background: #7030a0;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
@@ -586,7 +591,7 @@ p,ul,ol /* Paragraph Style */
 .rvps12
 {
  text-align: center;
- border-color: #000000;
+ border-color: canvastext;
  border-style: solid;
  border-width: 1px;
 }
@@ -594,8 +599,8 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: center;
  text-indent: 0px;
- page-break-after: avoid;
- border-color: #000000;
+ break-after: avoid;
+ border-color: canvastext;
  border-style: solid;
  border-width: 1px;
  padding: 0px 0px 0px 0px;
@@ -605,7 +610,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: left;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  background: #c00000;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
@@ -694,7 +699,7 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps34
 {
- border-color: #000000;
+ border-color: canvastext;
  border-style: solid;
  border-width: 1px;
 }
@@ -702,7 +707,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: center;
  text-indent: 0px;
- page-break-after: avoid;
+ break-after: avoid;
  border-color: #ff6600;
  border-style: solid;
  border-width: 1px;
@@ -729,36 +734,144 @@ p,ul,ol /* Paragraph Style */
 .rvps39
 {
  text-indent: -24px;
+ padding: 0px 0px 0px 24px;
 }
 .rvps40
 {
- text-indent: -24px;
- margin: 0px 0px 0px 96px;
+ text-align: center;
+ margin: 0px 0px 0px 1px;
 }
 .rvps41
 {
  text-indent: -24px;
- margin: 0px 0px 0px 144px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 72px;
 }
 .rvps42
 {
  text-indent: -24px;
- margin: 0px 0px 0px 192px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 120px;
 }
 .rvps43
 {
  text-indent: -24px;
- margin: 0px 0px 0px 240px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 168px;
 }
 .rvps44
 {
- text-indent: -24px;
- margin: 0px 0px 0px 288px;
 }
 .rvps45
 {
- text-align: center;
- margin: 0px 0px 0px 1px;
+ text-indent: -24px;
+ padding: 0px 0px 0px 24px;
+}
+.rvps46
+{
+ text-indent: -24px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps47
+{
+ text-indent: -24px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 24px;
+}
+.rvps48
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps49
+{
+ text-indent: -24px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps50
+{
+ margin: 0px 1px 0px 0px;
+}
+.rvps51
+{
+ margin: 8px 1px 8px 0px;
+}
+.rvps52
+{
+ break-after: avoid;
+ margin: 16px 1px 4px 0px;
+}
+.rvps53
+{
+ margin: 8px 0px 16px 0px;
+}
+.rvps54
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 1px 0px 0px;
+}
+.rvps55
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 1px 0px 0px;
+}
+.rvps56
+{
+ text-align: justify;
+ text-align-last: auto;
+ text-indent: 0px;
+ break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 1px 4px 0px;
+}
+.rvps57
+{
+ margin: 0px 1px 0px 0px;
+}
+.rvps58
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 1px 0px 0px;
+}
+.rvps59
+{
+ text-align: justify;
+ text-align-last: auto;
+ text-indent: 0px;
+ break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 1px 4px 0px;
+}
+.rvps60
+{
+ text-align: left;
+ text-indent: 0px;
+ break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 1px 4px 0px;
+}
+.rvps61
+{
+ margin: 0px 1px 0px 0px;
+}
+.rvps62
+{
+ text-align: left;
+ text-indent: 0px;
+ break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps63
+{
+ margin: 0px 0px 0px 9px;
 }
 /* ========== Lists ========== */
 .list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
@@ -767,3 +880,5 @@ p,ul,ol /* Paragraph Style */
 .list3 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
 .list4 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;}
 .list5 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;}
+.list6 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: '- ';}
+li.noindent { margin-left: 0; padding-left: 0; }
