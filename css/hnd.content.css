@@ -434,80 +434,74 @@ span.rvts82
 }
 span.rvts83
 {
- font-size: 9pt;
- font-style: italic;
- color: buttontext;
+ font-size: 16pt;
+ font-weight: bold;
 }
 span.rvts84
 {
- font-size: 16pt;
- font-weight: bold;
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
 }
 span.rvts85
 {
  font-size: 12pt;
  font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
 }
 span.rvts86
 {
- font-size: 12pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-size: 9pt;
  font-weight: bold;
 }
 span.rvts87
 {
  font-size: 9pt;
+ font-family: 'Segoe UI';
  font-weight: bold;
 }
 span.rvts88
 {
- font-size: 9pt;
- font-family: 'Segoe UI';
- font-weight: bold;
+ font-size: 14pt;
 }
 span.rvts89
 {
- font-size: 14pt;
+ font-style: italic;
 }
 span.rvts90
 {
  font-style: italic;
-}
-span.rvts91
-{
- font-style: italic;
  text-decoration: underline;
 }
-span.rvts92
+span.rvts91
 {
  font-size: 6pt;
  font-style: italic;
 }
-span.rvts93
+span.rvts92
 {
  font-size: 7pt;
  font-weight: bold;
 }
-span.rvts94
+span.rvts93
 {
  font-size: 8pt;
  font-style: italic;
 }
-span.rvts95
+span.rvts94
 {
  font-size: 8pt;
  font-weight: bold;
 }
-span.rvts96
+span.rvts95
 {
  font-weight: bold;
 }
-span.rvts97
+span.rvts96
 {
  font-size: 13pt;
  font-weight: bold;
 }
-span.rvts98
+span.rvts97
 {
 }
 /* ========== Para Styles ========== */
